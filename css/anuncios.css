@@ -1,0 +1,44 @@
+.advert {
+  display: grid;
+  align-content: start;
+  gap: 30px;
+}
+
+.advert-item {
+  display: grid;
+  grid-template-columns: auto;
+  transition: 0.1s ease-out;
+}
+
+.advert-item:hover {
+  opacity: 0.8;
+}
+
+.advert-item img {
+  border-radius: 3px;
+}
+
+@media (max-width: 1200px) {
+  .advert-item {
+    grid-row: 1;
+  }
+
+  .advert {
+    place-content: center;
+  }
+}
+
+@media (max-width: 515px) {
+  .advert-item {
+    max-width: 250px;
+  }
+
+  .advert {
+    place-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 15px;
+    padding: 30px 10px;
+  }
+}

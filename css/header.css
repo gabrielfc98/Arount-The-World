@@ -1,0 +1,13 @@
+header {
+  background-color: #b73e3e;
+  display: grid;
+  justify-content: center;
+  padding: 20px;
+}
+
+.header-logo {
+  display: block;
+  max-width: 300px;
+  max-height: 80px;
+  padding: 5px;
+}

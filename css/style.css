@@ -1,0 +1,18 @@
+@import "./global.css";
+
+/* Header */
+@import "./header.css";
+
+/* Grid Containers */
+@import "./grid-container.css";
+
+/* Footer */
+@import "./footer.css";
+
+/* Content */
+@import "./content.css";
+
+/* Sidenav */
+@import "./sidenav.css";
+
+@import "./anuncios.css";
